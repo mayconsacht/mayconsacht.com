@@ -1,0 +1,12 @@
+.sheet {
+  margin-top: 2rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: var(--texts);
+}
+
+.link {
+  color: var(--secondary-color);
+}

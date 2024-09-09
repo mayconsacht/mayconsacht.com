@@ -18,6 +18,7 @@ export const Menu = () => {
           MAYCON SACHT
         </Link>
         <ul className={styles.items}>
+          {renderLink('/', 'Home', 'Home page')}
           {renderLink('/about', 'About', 'About page')}
           {renderLink('/projects', 'Projects', 'Projects page')}
         </ul>

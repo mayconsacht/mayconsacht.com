@@ -1,5 +1,6 @@
 .container {
-  display: flex;
+  margin: auto;
+  max-width: 60rem;
   height: 100%;
   justify-content: center;
 }
