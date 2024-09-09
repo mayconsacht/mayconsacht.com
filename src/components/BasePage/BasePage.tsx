@@ -1,3 +1,5 @@
+import { Footer } from 'components/Footer/Footer';
+import { Menu } from 'components/Menu/Menu';
 import styles from './BasePage.module.css';
 
 type Props = {
@@ -5,5 +7,11 @@ type Props = {
 };
 
 export const BasePage = ({ children }: Props) => {
-  return <section className={styles.container}>{children}</section>;
+  return (
+    <div className={styles.container}>
+      <Menu />
+      <section className={styles.section}>{children}</section>
+      <Footer />
+    </div>
+  );
 };

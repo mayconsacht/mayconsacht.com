@@ -23,17 +23,17 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+main,
+body {
   height: 100%;
 }
 
 body {
   margin: 0;
   color: white;
-  padding-top: 3rem;
   background-color: var(--primary-color);
   font-size: var(--font-size-l);
-  height: 100%;
 }
 
 a {
