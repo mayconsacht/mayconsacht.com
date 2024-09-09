@@ -10,11 +10,11 @@ export const Home = () => (
         name is Maycon Sacht & this is where I live on the internet.
       </p>
       <p>
-        I'm a software engineer living in the real world in Santa Catarina,
-        Brazil, where lately I've been mostly coding in .NET Framework &
+        I&apos;m a software engineer living in the real world in Santa Catarina,
+        Brazil, where lately I&apos;ve been mostly coding in .NET Framework &
         Javascript frameworks like Angular & NextJS{' '}
         <span className={styles.strikethrough}>
-          (the way I'm coding my digital home)
+          (the way I&apos;m coding my digital home)
         </span>
         .{' '}
         <Link href='/about' className={styles.link} aria-label='Read more'>
