@@ -13,7 +13,7 @@ export default function Home() {
         <p>
           I&apos;m a software engineer living in the real world in Santa
           Catarina, Brazil, where lately I&apos;ve been mostly coding in .NET
-          Framework & Javascript frameworks like Angular & NextJS{' '}
+          Core & Javascript frameworks like Angular & NextJS{' '}
           <span className={styles.strikethrough}>
             (the way I&apos;m coding my digital home)
           </span>

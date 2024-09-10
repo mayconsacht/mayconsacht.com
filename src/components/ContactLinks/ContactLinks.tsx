@@ -18,7 +18,7 @@ export const ContactLinks = () => {
                 viewBox='0 0 496 512'
                 stroke='currentColor'
                 fill='currentColor'
-                stroke-width='0'
+                strokeWidth='0'
                 height='1.7rem'
                 width='1.7rem'
               >
@@ -33,7 +33,7 @@ export const ContactLinks = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 512 512'
               height='1.7rem'
               width='1.7rem'
@@ -52,7 +52,7 @@ export const ContactLinks = () => {
             <svg
               stroke='currentColor'
               fill='currentColor'
-              stroke-width='0'
+              strokeWidth='0'
               viewBox='0 0 448 512'
               height='1.7rem'
               width='1.7rem'
@@ -77,7 +77,7 @@ export const ContactLinks = () => {
                 viewBox='0 0 448 512'
                 stroke='currentColor'
                 fill='currentColor'
-                stroke-width='0'
+                strokeWidth='0'
                 height='1.7rem'
                 width='1.7rem'
               >
