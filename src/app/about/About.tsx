@@ -8,23 +8,24 @@ export default function About() {
       <h1>About me </h1>
       <div className={styles.sheet}>
         <p>
-          I don’t want to sound formal at all,{' '}
+          I don&apos;t want to sound formal at all,{' '}
           <span className={styles.strikethrough}>
             I even thought about writing this section with bullet points,
           </span>{' '}
-          but I’ll make an effort to create paragraphs.
+          but I&apos;ll make an effort to create paragraphs.
         </p>
         <p>
-          Besides technology, which I’ve been passionate about since I first saw
-          a computer in the 2000s, I also view surfing as both therapy and a
-          philosophy of life. Like technology, anyone who surfs will agree that
-          it’s a school for life, requiring continuous learning and practice. No
-          matter how much you do, there will always be room for improvement.
+          Besides technology, which I&apos;ve been passionate about since I
+          first saw a computer in the 2000s, I also view surfing as both therapy
+          and a philosophy of life. Like technology, anyone who surfs will agree
+          that it&apos;s a school for life, requiring continuous learning and
+          practice. No matter how much you do, there will always be room for
+          improvement.
         </p>
         <p>
-          I also enjoy taking amateur photos with my iPhone. They're not
-          professional or spectacular, but if you'd like, you can take a look at
-          my{' '}
+          I also enjoy taking amateur photos with my iPhone. They&apos;re not
+          professional or spectacular, but if you&apos;d like, you can take a
+          look at my{' '}
           <Link
             href='https://unsplash.com/@mayconsacht'
             className={styles.link}
@@ -79,11 +80,12 @@ export default function About() {
 
         <h1>About this site </h1>
         <p>
-          Besides technology, which I’ve been passionate about since I first saw
-          a computer in the 2000s, I also view surfing as both therapy and a
-          philosophy of life. Like technology, anyone who surfs will agree that
-          it’s a school for life, requiring continuous learning and practice. No
-          matter how much you do, there will always be room for improvement.
+          Besides technology, which I&apos;ve been passionate about since I
+          first saw a computer in the 2000s, I also view surfing as both therapy
+          and a philosophy of life. Like technology, anyone who surfs will agree
+          that it&apos;s a school for life, requiring continuous learning and
+          practice. No matter how much you do, there will always be room for
+          improvement.
         </p>
       </div>
     </>
