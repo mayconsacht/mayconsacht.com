@@ -82,7 +82,7 @@ export default function About() {
         <p>
           It&apos;s been a long time since I started thinking about creating a
           personal website to publish things about technology and my life. My
-          decision here was to 'keep it simple', as{' '}
+          decision here was to &apos;keep it simple&apos;, as{' '}
           <Link
             href='https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)'
             className={styles.link}
