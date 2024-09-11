@@ -1,5 +1,6 @@
 import { Tag } from './Tag';
 import { LinkIcon } from './LinkIconCard';
+
 import styles from './ProjectCard.module.css';
 
 type Props = {
@@ -34,7 +35,6 @@ export const ProjectCard = ({
           viewBox='0 0 640 512'
         />
       </div>
-      <div className={styles.image}></div>
       <div className={styles.content}>
         <p>{description}</p>
         <div className={styles.tags}>

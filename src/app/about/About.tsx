@@ -58,31 +58,33 @@ export default function About() {
           <ProjectCard
             title='Dogs'
             description='A simple social media platform for dogs.'
-            tags={['Node.js', 'React', 'Next.js']}
+            tags={['Node.js', 'React']}
             gitUrl='https://github.com/mayconsacht/dogs'
             siteUrl='https://dogs.mayconsacht.com/'
           />
           <ProjectCard
-            title='Dogs'
-            description='A simple social media platform for dogs.'
-            tags={['Node.js', 'React', 'Next.js']}
-            gitUrl='https://github.com/mayconsacht/dogs'
-            siteUrl='https://dogs.mayconsacht.com/'
+            title='This Website'
+            description='Explore this website code.'
+            tags={['React', 'Next.js']}
+            gitUrl='https://github.com/mayconsacht/mayconsacht.com'
+            siteUrl='https://www.mayconsacht.com/'
           />
           <ProjectCard
-            title='Dogs'
-            description='A simple social media platform for dogs.'
-            tags={['Node.js', 'React', 'Next.js']}
+            title='Driver'
+            description='A simple app for drivers and passengers.'
+            tags={['.NET Core', 'Angular']}
             gitUrl='https://github.com/mayconsacht/dogs'
             siteUrl='https://dogs.mayconsacht.com/'
           />
         </div>
-
-        <h1>About this site </h1>
+      </div>
+      <h1>About this site </h1>
+      <div className={styles.sheet}>
         <p>
           It&apos;s been a long time since I started thinking about creating a
-          personal website to publish things about technology and my life. My
-          decision here was to &apos;keep it simple&apos;, as{' '}
+          personal website to serve as a blog for publishing things about
+          technology and my life. My decision here was to &apos;keep it
+          simple&apos;, a principle famously articulated by{' '}
           <Link
             href='https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)'
             className={styles.link}
@@ -91,9 +93,11 @@ export default function About() {
             rel='noopener noreferrer'
             passHref
           >
-            Kelly Johnson
+            Kelly Johnson.
           </Link>{' '}
-          always emphasized, and I chose to use the{' '}
+        </p>
+        <p>
+          I chose to use the{' '}
           <Link
             href='https://fonts.google.com/specimen/Inconsolata'
             className={styles.link}
