@@ -38,9 +38,8 @@ export default function About() {
           </Link>
         </p>
         <p>
-          Maybe you are interested in seeing some of my work. Unfortunately, I
-          have always worked on private projects, but you can check out a few
-          things on my{' '}
+          You might be interested in seeing some of my work. Although most of my
+          projects have been private, you can check out a few examples on my{' '}
           <Link
             href='https://github.com/mayconsacht'
             className={styles.link}
@@ -49,9 +48,10 @@ export default function About() {
             rel='noopener noreferrer'
             passHref
           >
-            Github
-          </Link>
-          , and to assist you, I can show you the most interesting ones below.
+            Github.
+          </Link>{' '}
+          To make it easier, I&apos;ve highlighted some of the most interesting
+          ones below.
         </p>
 
         <div className={styles.projects}>
@@ -80,12 +80,35 @@ export default function About() {
 
         <h1>About this site </h1>
         <p>
-          Besides technology, which I&apos;ve been passionate about since I
-          first saw a computer in the 2000s, I also view surfing as both therapy
-          and a philosophy of life. Like technology, anyone who surfs will agree
-          that it&apos;s a school for life, requiring continuous learning and
-          practice. No matter how much you do, there will always be room for
-          improvement.
+          It&apos;s been a long time since I started thinking about creating a
+          personal website to publish things about technology and my life. My
+          decision here was to 'keep it simple', as{' '}
+          <Link
+            href='https://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)'
+            className={styles.link}
+            aria-label='Kelly Johnson'
+            target='_blank'
+            rel='noopener noreferrer'
+            passHref
+          >
+            Kelly Johnson
+          </Link>{' '}
+          always emphasized, and I chose to use the{' '}
+          <Link
+            href='https://fonts.google.com/specimen/Inconsolata'
+            className={styles.link}
+            aria-label='Inconsolata font'
+            target='_blank'
+            rel='noopener noreferrer'
+            passHref
+          >
+            Insonsolata
+          </Link>{' '}
+          font. I&apos;ve always liked this font for coding—it&apos;s a
+          monospace that&apos;s easy to read. Just as architectural decisions
+          can limit the design of an application, choosing Inconsolata almost
+          forced me to develop a really square, retro-style layout, and I ended
+          up really liking it!
         </p>
       </div>
     </>

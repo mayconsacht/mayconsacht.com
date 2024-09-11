@@ -19,4 +19,8 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  .container {
+    min-height: calc(100% - 160px);
+  }
 }
