@@ -1,0 +1,27 @@
+.sheet {
+  margin-top: 0.7rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: var(--texts);
+}
+
+.link {
+  color: var(--secondary-color);
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 50rem) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}

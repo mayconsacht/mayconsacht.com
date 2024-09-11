@@ -29,7 +29,12 @@ export const ContactLinks = () => {
         </li>
 
         <li>
-          <a href='mailto:maycon.sacht@gmail.com' className={styles.link}>
+          <a
+            href='mailto:maycon.sacht@gmail.com'
+            className={styles.link}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <svg
               stroke='currentColor'
               fill='currentColor'
@@ -46,8 +51,10 @@ export const ContactLinks = () => {
 
         <li>
           <a
-            href='https://www.linkedin.com/in/mayconsacht'
+            href='https://www.linkedin.com/in/maycon-sacht/'
             className={styles.link}
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <svg
               stroke='currentColor'

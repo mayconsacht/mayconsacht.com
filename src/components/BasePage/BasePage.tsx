@@ -8,10 +8,12 @@ type Props = {
 
 export const BasePage = ({ children }: Props) => {
   return (
-    <div className={styles.container}>
+    <>
       <Menu />
-      <section className={styles.section}>{children}</section>
-      <Footer />
-    </div>
+      <div className={styles.container}>
+        <section className={styles.section}>{children}</section>
+        <Footer />
+      </div>
+    </>
   );
 };

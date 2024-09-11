@@ -7,15 +7,15 @@ export default function Home() {
       <h1>A bit about this... </h1>
       <div className={styles.sheet}>
         <p>
-          Firstly, <span className={styles.strikethrough}>Hello world!</span> My
+          Firstly, <span className={styles.strikethrough}>hello world!</span> My
           name is Maycon Sacht & this is where I live on the internet.
         </p>
         <p>
-          I&apos;m a software engineer living in the real world in Santa
-          Catarina, Brazil, where lately I&apos;ve been mostly coding in .NET
-          Core & Javascript frameworks like Angular & NextJS{' '}
+          I&apos;m a software engineer currently living in the real world in
+          Santa Catarina, Brazil, where lately I&apos;ve been mostly coding in
+          .NET Core & Javascript frameworks like Angular & Next.js{' '}
           <span className={styles.strikethrough}>
-            (the way I&apos;m coding my digital home)
+            (the way I&apos;m coding this digital home)
           </span>
           .{' '}
           <Link
@@ -27,8 +27,8 @@ export default function Home() {
           </Link>
         </p>
         <p>
-          At this point, I primaly use this site for writing about tecnologies,
-          trips & personal life.{' '}
+          At this point, I primarily use this site to write about technology,
+          travel, and my personal life.{' '}
           <Link
             href='/blog'
             className={styles.link}
