@@ -16,9 +16,10 @@ export default function About() {
           =)
         </p>
         <p>
-          If you're looking for something more professional, I&apos;ll include
-          links to some of my projects below. Alternatively, if you&apos;re more
-          interested in my work experience, feel free to visit my{' '}
+          If you&apos;re looking for something more professional, I&apos;ll
+          include links to some of my projects below. Alternatively, if
+          you&apos;re more interested in my work experience, feel free to visit
+          my{' '}
           <Link
             href='https://www.linkedin.com/in/maycon-sacht/'
             className={styles.link}
