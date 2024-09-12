@@ -11,10 +11,6 @@ interface Post {
   content: string;
 }
 
-interface BlogListProps {
-  posts: (Post | null)[];
-}
-
 export default function BlogList() {
   const posts = getAllPosts().filter((post) => post !== null) as Post[];
   return (
