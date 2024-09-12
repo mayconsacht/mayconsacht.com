@@ -30,7 +30,7 @@ export default function About() {
             Linkedin
           </Link>{' '}
           <span className={styles.strikethrough}>
-            (though I’m not a big fan of it either)
+            (though I&apos;m not a big fan of it either)
           </span>
           .
         </p>
