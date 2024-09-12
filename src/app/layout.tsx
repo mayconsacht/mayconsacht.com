@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { BasePage } from 'components/BasePage/BasePage';
+import { Providers } from './providers';
 
 import 'styles/fonts.css';
 import 'styles/global.css';
@@ -21,7 +22,9 @@ export default function RootLayout({
       </head>
       <body>
         <main>
-          <BasePage>{children}</BasePage>
+          <Providers>
+            <BasePage>{children}</BasePage>
+          </Providers>
         </main>
       </body>
     </html>

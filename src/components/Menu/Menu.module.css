@@ -21,6 +21,10 @@
   padding-bottom: 1rem;
 }
 
+.active {
+  text-shadow: 1px 1px 0px var(--secondary-color);
+}
+
 .me {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -42,5 +46,5 @@
 }
 
 .item:hover {
-  color: var(--secondary-color);
+  color: #f9b6ce;
 }

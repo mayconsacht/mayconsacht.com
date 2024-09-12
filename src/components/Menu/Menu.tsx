@@ -1,11 +1,19 @@
+'use client';
+
 import Link from 'next/link';
 import styles from './Menu.module.css';
+import { usePathname } from 'next/navigation';
 
 export const Menu = () => {
+  const pathname = usePathname();
   function renderLink(path: string, displayName: string, label: string) {
     return (
       <li>
-        <Link href={path} className={styles.item} aria-label={label}>
+        <Link
+          href={path}
+          className={`${styles.item} ${pathname === path ? styles.active : ''}`}
+          aria-label={label}
+        >
           {displayName}
         </Link>
       </li>
