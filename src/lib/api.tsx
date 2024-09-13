@@ -3,18 +3,7 @@ import { join } from 'path';
 import fs from 'fs';
 import { format } from 'date-fns';
 import { pt } from 'date-fns/locale';
-
-interface Frontmatter {
-  date: string;
-  title: string;
-  description: string;
-}
-
-interface Post {
-  slug: string;
-  frontmatter: Frontmatter;
-  content: string;
-}
+import { Post } from 'components/Post/types';
 
 const postsDirectory = join(process.cwd(), 'posts');
 
@@ -31,9 +20,7 @@ export function getPostBySlug(slug: string | undefined): Post | null {
     return null;
   }
 
-  const formattedDate = format(new Date(data.date), "dd 'de' MMMM 'de' yyyy", {
-    locale: pt,
-  });
+  const formattedDate = format(new Date(data.date), 'MMMM dd, yyyy');
 
   return {
     slug: realSlug,

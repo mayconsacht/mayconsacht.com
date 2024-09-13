@@ -45,6 +45,8 @@
   transition: color 0.3s ease;
 }
 
-.item:hover {
-  color: #f9b6ce;
+@media (min-width: 60rem) {
+  .item:hover {
+    color: #f9b6ce;
+  }
 }

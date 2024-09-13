@@ -7,10 +7,6 @@
   color: var(--texts);
 }
 
-.link {
-  color: var(--secondary-color);
-}
-
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

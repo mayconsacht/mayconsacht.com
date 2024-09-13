@@ -2,8 +2,19 @@
   align-items: center;
   border-bottom: 1px solid var(--texts);
   display: flex;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   width: 100%;
+
+  @media (max-width: 60rem) {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
+.wrapper:nth-last-col {
+  border-bottom: none;
 }
 
 .link {
@@ -19,6 +30,10 @@
 .info {
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 60rem) {
+    margin: 0;
+  }
 }
 
 .date {

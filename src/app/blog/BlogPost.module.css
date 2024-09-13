@@ -1,0 +1,48 @@
+.header {
+  color: var(--postColor);
+  margin: auto;
+
+  @media (max-width: 60rem) {
+    padding: 3rem 0 0;
+    max-width: 100%;
+  }
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem auto;
+}
+
+.description {
+  @media (max-width: 60rem) {
+  }
+}
+
+.back {
+  color: var(--texts);
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+
+  @media (max-width: 60rem) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.back:hover {
+  color: var(--secondary-color);
+}
+
+.date {
+  font-size: 1.1rem;
+  font-weight: 100;
+
+  @media (max-width: 60rem) {
+  }
+}
+
+.main {
+  margin: auto;
+  margin-top: 3rem;
+}

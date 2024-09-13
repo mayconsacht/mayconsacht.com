@@ -10,7 +10,7 @@ type Props = {
 
 const Post = ({ slug, date, title, description }: Props) => {
   return (
-    <Link href={slug} passHref>
+    <Link href={`/blog/${slug}`} passHref>
       <div className={styles.link}>
         <div className={styles.wrapper}>
           <div className={styles.info}>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/remark-oembed": "^1.2.4",
     "date-fns": "^3.6.0",
     "gray-matter": "^4.0.3",
     "next": "14.2.8",
@@ -16,7 +17,14 @@
     "nextjs-progressbar": "^0.0.16",
     "react": "^18",
     "react-dom": "^18",
-    "react-infinite-scroll-component": "^6.1.0"
+    "react-infinite-scroll-component": "^6.1.0",
+    "remark": "^15.0.1",
+    "remark-autolink-headings": "^7.0.1",
+    "remark-html": "^16.0.1",
+    "remark-oembed": "^1.2.2",
+    "remark-parse": "^11.0.0",
+    "remark-slug": "^7.0.1",
+    "unified": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20",
