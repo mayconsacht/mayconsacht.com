@@ -4,6 +4,7 @@ import { Providers } from './providers';
 
 import 'styles/fonts.css';
 import 'styles/global.css';
+import 'styles/base.css';
 
 export const metadata: Metadata = {
   title: 'Maycon Sacht',

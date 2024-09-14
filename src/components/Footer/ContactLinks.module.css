@@ -12,7 +12,7 @@
 }
 
 .link {
-  color: var(--texts);
+  color: var(--highlight);
   text-decoration: none;
   transition: color 0.2s;
   width: 30px;

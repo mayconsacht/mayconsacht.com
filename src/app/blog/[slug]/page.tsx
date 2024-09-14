@@ -1,17 +1,7 @@
-import { GetStaticProps, GetStaticPaths } from 'next';
+import { GetStaticPaths } from 'next';
 import { getAllPosts, getPostBySlug } from 'lib/api';
 import markdownToHtml from 'lib/markdownToHtml';
-import { Post } from 'components/Post/types';
 import BlogPost from '../BlogPost';
-
-interface Props {
-  params: {
-    post: Post;
-    content: string;
-    nextPost: Post | null;
-    prevPost: Post | null;
-  };
-}
 
 const Post = async ({ params }: { params: { slug: string } }) => {
   const post = getPostBySlug(params.slug);

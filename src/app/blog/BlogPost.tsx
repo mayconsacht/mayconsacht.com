@@ -1,4 +1,4 @@
-import { Post, Post as PostType } from 'components/Post/types';
+import { Post } from 'components/Post/types';
 import Link from 'next/link';
 
 import styles from './BlogPost.module.css';
@@ -10,7 +10,7 @@ type Props = {
   prevPost: Post | null;
 };
 
-const BlogPost = ({ post, content, nextPost, prevPost }: Props) => {
+const BlogPost = ({ post, content }: Props) => {
   return (
     <>
       <div className={styles.header}>

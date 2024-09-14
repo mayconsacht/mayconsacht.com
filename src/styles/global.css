@@ -13,10 +13,9 @@
   --secondary-color: #f92672;
   --color-black: #000;
   --color-white: #fff;
-  --texts: #8899a6;
+  --highlight: #8899a6;
 
   --base-type: 'Inconsolata', Arial, sans-serif;
-  --second-type: 'Spectral', Georgia;
 }
 
 * {
@@ -38,7 +37,7 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--secondary-color);
 }
 
 h1,

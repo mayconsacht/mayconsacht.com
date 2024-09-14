@@ -1,7 +1,4 @@
 .header {
-  color: var(--postColor);
-  margin: auto;
-
   @media (max-width: 60rem) {
     padding: 3rem 0 0;
     max-width: 100%;
@@ -20,7 +17,7 @@
 }
 
 .back {
-  color: var(--texts);
+  color: var(--highlight);
   display: flex;
   text-decoration: none;
   margin-bottom: 1.5rem;

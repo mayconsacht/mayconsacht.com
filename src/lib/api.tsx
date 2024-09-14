@@ -2,7 +2,6 @@ import matter from 'gray-matter';
 import { join } from 'path';
 import fs from 'fs';
 import { format } from 'date-fns';
-import { pt } from 'date-fns/locale';
 import { Post } from 'components/Post/types';
 
 const postsDirectory = join(process.cwd(), 'posts');

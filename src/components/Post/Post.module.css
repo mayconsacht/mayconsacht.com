@@ -1,6 +1,6 @@
 .wrapper {
   align-items: center;
-  border-bottom: 1px solid var(--texts);
+  border-bottom: 1px solid var(--highlight);
   display: flex;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -18,13 +18,13 @@
 }
 
 .link {
-  color: var(--texts);
   display: flex;
   text-decoration: none;
+  color: var(--color-white);
 }
 
 .link:hover {
-  color: var(--secondary-color);
+  color: var(--highlight);
 }
 
 .info {

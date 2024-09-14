@@ -43,6 +43,7 @@
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
   transition: color 0.3s ease;
+  color: var(--color-white);
 }
 
 @media (min-width: 60rem) {
