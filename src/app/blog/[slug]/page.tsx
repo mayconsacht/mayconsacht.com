@@ -19,3 +19,5 @@ const Post = async ({ params }: { params: { slug: string } }) => {
     />
   );
 };
+
+export default Post;
