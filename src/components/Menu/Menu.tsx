@@ -8,7 +8,7 @@ export const Menu = () => {
   const pathname = usePathname();
   function renderLink(path: string, displayName: string, label: string) {
     return (
-      <li>
+      <li className={styles.colunm}>
         <Link
           href={path}
           className={`${styles.item} ${pathname === path ? styles.active : ''}`}

@@ -5,7 +5,7 @@ code {
   border-radius: 0.3em;
   white-space: normal;
   overflow-wrap: break-word;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: var(--font-size-m);
 }
 
 pre {
@@ -30,6 +30,10 @@ pre {
   background: #2d2d2d;
 }
 
+ol {
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
 .anchor {
   position: relative;
   border: 0;

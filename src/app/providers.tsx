@@ -3,7 +3,11 @@
 import React from 'react';
 import { Next13ProgressBar } from 'next13-progressbar';
 
-export const Providers = ({ children }: { children: React.ReactNode }) => {
+type Props = {
+  children: React.ReactNode;
+};
+
+export const Providers = ({ children }: Props) => {
   return (
     <>
       {children}

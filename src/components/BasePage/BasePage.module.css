@@ -1,7 +1,6 @@
 .section {
   display: flex;
   flex-direction: column;
-  padding-top: 3rem;
   margin-bottom: 2rem;
   width: 100%;
 }
@@ -11,7 +10,7 @@
   align-items: center;
   flex-direction: column;
   max-width: 60rem;
-  min-height: calc(100% - 182px);
+  min-height: calc(100% - 170px);
   margin-right: auto;
   margin-left: auto;
 }

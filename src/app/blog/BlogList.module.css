@@ -1,4 +1,3 @@
-a {
-  text-decoration: none;
-  color: var(--secondary-color);
+.container a:last-child :global(.Post_wrapper__TEH25) {
+  border-bottom: none;
 }

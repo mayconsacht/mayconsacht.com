@@ -13,10 +13,6 @@
   }
 }
 
-.wrapper:nth-last-col {
-  border-bottom: none;
-}
-
 .link {
   display: flex;
   text-decoration: none;
@@ -24,7 +20,7 @@
 }
 
 .link:hover {
-  color: var(--highlight);
+  color: var(--secondary-color);
 }
 
 .info {

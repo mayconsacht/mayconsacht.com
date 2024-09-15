@@ -4,7 +4,7 @@ export const ContactLinks = () => {
   return (
     <nav className={styles.container}>
       <ul className={styles.items}>
-        <li>
+        <li className={styles.colunm}>
           <a
             href='https://github.com/mayconsacht'
             title='Github'
