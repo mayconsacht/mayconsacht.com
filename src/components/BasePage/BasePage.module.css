@@ -10,7 +10,7 @@
   align-items: center;
   flex-direction: column;
   max-width: 60rem;
-  min-height: calc(100% - 170px);
+  min-height: calc(100% - 145px);
   margin: 0 auto;
 }
 
