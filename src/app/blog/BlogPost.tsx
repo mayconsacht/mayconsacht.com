@@ -1,5 +1,8 @@
+'use client';
+
 import { Post } from 'components/Post/types';
 import Link from 'next/link';
+import BackToTop from 'components/BackToTop/BackToTop';
 
 import styles from './BlogPost.module.css';
 
@@ -14,7 +17,7 @@ const BlogPost = ({ post, content }: Props) => {
   return (
     <>
       <div className={styles.header}>
-        <Link href='/blog' passHref>
+        <Link href='/blog'>
           <span className={styles.back}>← Back to list</span>
         </Link>
 
@@ -28,6 +31,7 @@ const BlogPost = ({ post, content }: Props) => {
       <div className={styles.main}>
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </div>
+      <BackToTop />
     </>
   );
 };

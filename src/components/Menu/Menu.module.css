@@ -4,9 +4,13 @@
   position: sticky;
   width: 100%;
   z-index: 100;
-  padding-top: 3rem;
+  padding-top: 2rem;
   background-color: var(--primary-color);
   top: 0;
+
+  @media (max-width: 30rem) {
+    padding-top: 0.8rem;
+  }
 }
 
 .wrapper {
@@ -28,8 +32,8 @@
 .me {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  padding: 0.7rem 1rem;
-  font-size: 2.5rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 

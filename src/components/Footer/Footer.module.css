@@ -29,7 +29,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     text-align: center;
-    gap: 0.4rem;
+    gap: 0.7rem;
     padding-top: 1.8rem;
     margin-bottom: 1.8rem;
   }
@@ -41,6 +41,6 @@
   .container span {
     margin: 0;
     padding-left: 0;
-    padding-right: 5px;
+    padding-right: 7px;
   }
 }

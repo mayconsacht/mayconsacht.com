@@ -2,14 +2,18 @@
   align-items: center;
   border-bottom: 1px solid var(--highlight);
   display: flex;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding: 2rem 0;
   width: 100%;
 
   @media (max-width: 60rem) {
     align-items: flex-start;
     flex-direction: column;
-    padding: 1rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  .wrapper:hover {
+    color: var(--secondary-color);
   }
 }
 
@@ -19,17 +23,9 @@
   color: var(--color-white);
 }
 
-.link:hover {
-  color: var(--secondary-color);
-}
-
 .info {
   display: flex;
   flex-direction: column;
-
-  @media (max-width: 60rem) {
-    margin: 0;
-  }
 }
 
 .date {
@@ -46,4 +42,14 @@
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2;
+}
+
+@media (max-width: 60rem) {
+  .info {
+    margin: 0;
+  }
+
+  .title {
+    font-size: var(--font-size-l);
+  }
 }

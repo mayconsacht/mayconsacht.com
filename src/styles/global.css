@@ -11,7 +11,6 @@
 
   --primary-color: #0a0c21;
   --secondary-color: #f92672;
-  --color-black: #000;
   --color-white: #fff;
   --highlight: #8899a6;
 
@@ -54,9 +53,9 @@ h1:first-child {
 h2 {
   margin-top: 2rem;
 }
+
 p {
-  margin-top: 1rem;
-  line-height: 1.7rem;
+  line-height: 1.7;
 }
 
 ul,
@@ -85,10 +84,6 @@ img {
   animation: animeLeft 0.3s forwards;
 }
 
-.section a div .wrapper {
-  border-bottom: none;
-}
-
 #__next {
   height: 100%;
 }
@@ -102,6 +97,6 @@ img {
 
 @media (max-width: 60rem) {
   html {
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-m);
   }
 }

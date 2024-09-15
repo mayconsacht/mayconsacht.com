@@ -5,6 +5,7 @@ import styles from './BlogList.module.css';
 
 export default function BlogList() {
   const posts = getAllPosts().filter((post) => post !== null) as PostType[];
+  console.log('passa aqui');
   return (
     <>
       <div className={styles.container}>
