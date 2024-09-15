@@ -2,7 +2,7 @@
 
 import { Post } from 'components/Post/types';
 import Link from 'next/link';
-import BackToTop from 'components/BackToTop/BackToTop';
+import BackToTopButton from 'components/BackToTopButton/BackToTopButton';
 
 import styles from './BlogPost.module.css';
 
@@ -31,7 +31,7 @@ const BlogPost = ({ post, content }: Props) => {
       <div className={styles.main}>
         <div dangerouslySetInnerHTML={{ __html: content }} />
       </div>
-      <BackToTop />
+      <BackToTopButton />
     </>
   );
 };

@@ -3,9 +3,9 @@
 import { UpArrowAlt as Arrow } from '@styled-icons/boxicons-regular/UpArrowAlt';
 import { useEffect, useState } from 'react';
 
-import styles from './BackToTop.module.css';
+import styles from './BackToTopButton.module.css';
 
-const BackToTop = () => {
+const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
   const [bottomOffset, setBottomOffset] = useState(20);
   const footerElementHeight = 75;
@@ -67,4 +67,4 @@ const BackToTop = () => {
   );
 };
 
-export default BackToTop;
+export default BackToTopButton;
