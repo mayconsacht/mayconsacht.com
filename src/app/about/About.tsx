@@ -70,23 +70,22 @@ export default function About() {
           <ProjectCard
             title='Dogs'
             description='A simple social media platform for dogs.'
-            tags={['Node.js', 'React']}
+            tags={['Node.js', 'React', 'Typescript']}
             gitUrl='https://github.com/mayconsacht/dogs'
             siteUrl='https://dogs.mayconsacht.com/'
+          />
+          <ProjectCard
+            title='Rider'
+            description='A app for drivers and passengers. Still work in progress.'
+            tags={['.NET Core', 'Angular']}
+            gitUrl='https://github.com/mayconsacht/Rider'
           />
           <ProjectCard
             title='This Website'
             description='Explore this website code.'
-            tags={['React', 'Next.js']}
+            tags={['React', 'Next.js', 'Typescript']}
             gitUrl='https://github.com/mayconsacht/mayconsacht.com'
             siteUrl='https://www.mayconsacht.com/'
-          />
-          <ProjectCard
-            title='Driver'
-            description='A simple app for drivers and passengers.'
-            tags={['.NET Core', 'Angular']}
-            gitUrl='https://github.com/mayconsacht/dogs'
-            siteUrl='https://dogs.mayconsacht.com/'
           />
         </div>
       </div>
