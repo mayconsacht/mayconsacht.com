@@ -1,5 +1,5 @@
+import BackToTopButton from 'components/BackToTopButton/BackToTopButton';
 import { ExternalLink } from 'components/ExternalLink/ExternalLink';
-import { ProjectCard } from 'components/ProjectCard/ProjectCard';
 import styles from './About.module.css';
 
 export default function About() {
@@ -8,40 +8,48 @@ export default function About() {
       <h1>About me</h1>
       <div className={styles.sheet}>
         <p>
-          I don&apos;t want to sound formal or make this feel like a resume.{' '}
-          <span className={styles.strikethrough}>
-            I even thought about writing this section with bullet points,
-          </span>{' '}
-          but I&apos;ll stick with the usual format and write some paragraphs.
-          =)
-        </p>
-        <p>
-          If you&apos;re looking for something more professional, I&apos;ll
-          include links to some of my projects below. Alternatively, if
-          you&apos;re more interested in my work experience, feel free to visit
-          my{' '}
+          I remember my first experience with programming back in 2008, when I
+          was 14 years old. My clan in a game (
           <ExternalLink
-            href='https://www.linkedin.com/in/maycon-sacht/'
-            arialLabel='Linkedin'
+            href='https://en.wikipedia.org/wiki/Gunbound'
+            arialLabel='Gunbound'
           >
-            Linkedin
-          </ExternalLink>{' '}
+            Gunbound
+          </ExternalLink>
+          ) needed a website, and I confidently volunteered to build it{' '}
           <span className={styles.strikethrough}>
-            (though I&apos;m not a big fan of it either)
+            —despite having no idea what HTML was at the time!
           </span>
-          .
+          . Sadly, it&apos;s no longer online, but from that moment on, I knew
+          exactly what I wanted to do with my life.
+        </p>
+
+        <p>
+          I started my bachelor&apos;s degree in Information Systems in 2012 and
+          have been writing world-class code for over 10 years. I&apos;ve worked
+          for major companies like{' '}
+          <ExternalLink href='https://en.totvs.com/' arialLabel='TOTVS'>
+            TOTVS
+          </ExternalLink>
+          , the largest software multinational in Latin America, where I built
+          several SaaS platforms from the ground up, often bouncing between
+          backend and frontend roles. Lately, though, I&apos;ve found myself
+          leaning more towards backend development - it&apos;s just where I feel
+          most at home!
         </p>
         <p>
-          Besides technology, which I&apos;ve been passionate about since I
-          first saw a computer, I also view surfing as both therapy & a
-          philosophy of life. Like technology, anyone who surfs will agree that
-          it&apos;s a school for life, requiring continuous learning & practice.
-          No matter how much you do, there will always be room for improvement.
+          But I&apos;m not just about coding! I&apos;m also an avid surfer.
+          Although I&apos;m currently based in Brazil, I spent the last two
+          years living in Australia, home to some of the most amazing waves in
+          the world. Like technology, surfing is a lifelong journey that
+          requires constant practice and improvement. No matter how far you get,
+          there&apos;s always room to learn and grow.
         </p>
         <p>
-          I also enjoy taking amateur photos with my iPhone. They&apos;re not
-          professional or spectacular, but if you&apos;d like, you can take a
-          look at my{' '}
+          I also enjoy gaming, though I wouldn&apos;t call myself a hardcore
+          gamer, and I like taking amateur photos with my iPhone. They&apos;re
+          not professional or spectacular, but if you&apos;d like, you can take
+          a look at my{' '}
           <ExternalLink
             href='https://unsplash.com/@mayconsacht'
             arialLabel='Unsplash'
@@ -50,47 +58,9 @@ export default function About() {
           </ExternalLink>
           .
         </p>
-        <p>
-          I started my Bachelor&apos;s degree in Information Systems in 2012,
-          and I&apos;ve been writing code for over 10 years. When it comes to my
-          professional life, you might be interested in seeing some of my work.
-          Although most of my projects have been private, you can check out a
-          few examples on my{' '}
-          <ExternalLink
-            href='https://github.com/mayconsacht'
-            arialLabel='Github'
-          >
-            Github
-          </ExternalLink>
-          . To make it easier, I&apos;ve highlighted some of the most
-          interesting ones below.
-        </p>
-
-        <div className={styles.projects}>
-          <ProjectCard
-            title='Dogs'
-            description='A simple social media platform for dogs.'
-            tags={['Node.js', 'React', 'Typescript']}
-            gitUrl='https://github.com/mayconsacht/dogs'
-            siteUrl='https://dogs.mayconsacht.com/'
-          />
-          <ProjectCard
-            title='Rider'
-            description='A app for drivers and passengers. Still work in progress.'
-            tags={['.NET Core', 'Angular']}
-            gitUrl='https://github.com/mayconsacht/Rider'
-          />
-          <ProjectCard
-            title='This Website'
-            description='Explore this website code.'
-            tags={['React', 'Next.js', 'Typescript']}
-            gitUrl='https://github.com/mayconsacht/mayconsacht.com'
-            siteUrl='https://www.mayconsacht.com/'
-          />
-        </div>
       </div>
 
-      <h1>About this site</h1>
+      <h1 className={styles.title}>About this site</h1>
       <div className={styles.sheet}>
         <p>
           It&apos;s been a long time since I&apos;m thinking about creating a
@@ -120,6 +90,7 @@ export default function About() {
           really liking it!
         </p>
       </div>
+      <BackToTopButton />
     </>
   );
 }

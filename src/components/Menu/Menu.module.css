@@ -7,10 +7,6 @@
   padding-top: 2rem;
   background-color: var(--primary-color);
   top: 0;
-
-  @media (max-width: 30rem) {
-    padding-top: 0.8rem;
-  }
 }
 
 .wrapper {
@@ -26,7 +22,7 @@
 }
 
 .active {
-  text-shadow: 1px 1px 0px var(--secondary-color);
+  text-shadow: 1.5px 1.5px 0px var(--secondary-color);
 }
 
 .me {
@@ -60,3 +56,13 @@
     color: #f9b6ce;
   }
 }
+
+  @media (max-width: 30rem) {
+    .header {
+      padding-top: 0.8rem;
+    }
+
+    .items {
+      gap: .7rem;
+    }
+  }

@@ -1,12 +1,15 @@
+import type { Metadata } from 'next';
 import { BasePage } from 'components/BasePage/BasePage';
 import { Providers } from './providers';
-import { DefaultSeo } from 'next-seo';
-import SEO from '../../next-seo.config';
 
 import 'styles/fonts.css';
 import 'styles/global.css';
 import 'styles/base.css';
 
+export const metadata: Metadata = {
+  title: 'Maycon Sacht | FullStack Developer',
+  description: 'This is where I live on the internet. Here you can find out more about my personal and professional life.'
+};
 
 export default function RootLayout({
   children,
@@ -21,7 +24,6 @@ export default function RootLayout({
       </head>
       <body>
         <main>
-          <DefaultSeo {...SEO} />
           <Providers>
             <BasePage>{children}</BasePage>
           </Providers>

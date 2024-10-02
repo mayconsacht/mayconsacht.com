@@ -7,6 +7,10 @@
   color: var(--highlight);
 }
 
+.title {
+  margin-top: 0.7rem;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
