@@ -1,7 +1,6 @@
 import BackToTopButton from 'components/BackToTopButton/BackToTopButton';
 import { ExternalLink } from 'components/ExternalLink/ExternalLink';
 import { ProjectCard } from 'components/ProjectCard/ProjectCard';
-import Link from 'next/link';
 import styles from './Projects.module.css';
 
 export default function Projects() {
