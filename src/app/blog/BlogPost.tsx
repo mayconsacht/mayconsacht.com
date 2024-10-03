@@ -4,7 +4,7 @@ import { Post } from 'components/Post/types';
 import Link from 'next/link';
 import BackToTopButton from 'components/BackToTopButton/BackToTopButton';
 
-import styles from './BlogPost.module.css';
+import styles from './BlogPost.module.sass';
 
 type Props = {
   post: Post | null;

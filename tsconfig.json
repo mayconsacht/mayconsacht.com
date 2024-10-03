@@ -2,16 +2,10 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "test/*": [
-        "../test/*"
-      ]
+      "test/*": ["../test/*"]
     },
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -34,10 +28,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "dist/types/**/*.ts",
+    "next.config.mjs",
+    "next.config.xts"
   ],
-  "exclude": [
-    "node_modules",
-    "coverage"
-  ]
+  "exclude": ["node_modules", "coverage"]
 }

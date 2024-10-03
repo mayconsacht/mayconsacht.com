@@ -1,7 +1,7 @@
 import { Tag } from './Tag';
 import { LinkIcon } from './LinkIconCard';
 
-import styles from './ProjectCard.module.css';
+import styles from './ProjectCard.module.sass';
 
 type Props = {
   title: string;

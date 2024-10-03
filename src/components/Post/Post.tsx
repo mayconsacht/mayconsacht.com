@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from './Post.module.css';
+import styles from './Post.module.sass';
 
 type Props = {
   slug: string;

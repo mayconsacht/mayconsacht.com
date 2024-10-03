@@ -1,4 +1,4 @@
-import styles from './LinkIconCard.module.css';
+import styles from './LinkIconCard.module.sass';
 
 type Props = {
   url: string;

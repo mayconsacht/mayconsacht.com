@@ -1,6 +1,7 @@
 import BackToTopButton from 'components/BackToTopButton/BackToTopButton';
 import { ExternalLink } from 'components/ExternalLink/ExternalLink';
-import styles from './About.module.css';
+
+import styles from './About.module.sass';
 
 export default function About() {
   return (
@@ -23,11 +24,9 @@ export default function About() {
           . Sadly, it&apos;s no longer online, but from that moment on, I knew
           exactly what I wanted to do with my life.
         </p>
-
         <p>
-          I started my bachelor&apos;s degree in Information Systems in 2012 and
-          have been writing world-class code for over 10 years. I&apos;ve worked
-          for major companies like{' '}
+          I started my bachelor&apos;s degree in Information Systems in 2012 &
+          I&apos;ve worked for major companies like{' '}
           <ExternalLink href='https://en.totvs.com/' arialLabel='TOTVS'>
             TOTVS
           </ExternalLink>
@@ -38,18 +37,18 @@ export default function About() {
           most at home!
         </p>
         <p>
-          But I&apos;m not just about coding! I&apos;m also an avid surfer.
-          Although I&apos;m currently based in Brazil, I spent the last two
-          years living in Australia, home to some of the most amazing waves in
-          the world. Like technology, surfing is a lifelong journey that
-          requires constant practice and improvement. No matter how far you get,
-          there&apos;s always room to learn and grow.
+          But I don&apos;t spend all my time coding! I&apos;m also a passionate
+          surfer since 2015. While I&apos;m currently based in Brazil, I spent
+          the last two years living in Australia, home to some of the most
+          amazing waves in the world. Like technology, surfing is a lifelong
+          journey that requires constant practice and improvement. No matter how
+          far you get, there&apos;s always room to learn and grow.
         </p>
         <p>
           I also enjoy gaming, though I wouldn&apos;t call myself a hardcore
-          gamer, and I like taking amateur photos with my iPhone. They&apos;re
-          not professional or spectacular, but if you&apos;d like, you can take
-          a look at my{' '}
+          gamer. Furthermore, I like taking amateur photos with my iPhone.
+          They&apos;re not professional or spectacular, but if you&apos;d like,
+          you can take a look at my{' '}
           <ExternalLink
             href='https://unsplash.com/@mayconsacht'
             arialLabel='Unsplash'

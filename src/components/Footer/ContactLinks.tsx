@@ -1,4 +1,4 @@
-import styles from './ContactLinks.module.css';
+import styles from './ContactLinks.module.sass';
 
 export const ContactLinks = () => {
   return (

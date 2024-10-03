@@ -1,5 +1,5 @@
 import { ContactLinks } from './ContactLinks';
-import styles from './Footer.module.css';
+import styles from './Footer.module.sass';
 
 export const Footer = () => {
   return (

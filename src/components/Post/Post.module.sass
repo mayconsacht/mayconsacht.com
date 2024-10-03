@@ -1,0 +1,43 @@
+.wrapper
+  align-items: center
+  border-bottom: 1px solid var(--highlight)
+  display: flex
+  padding: 2rem 0
+  width: 100%
+
+  @media (max-width: 60rem)
+    align-items: flex-start
+    flex-direction: column
+
+@media (min-width: 60rem)
+  .wrapper:hover
+    color: var(--secondary-color)
+
+.link
+  display: flex
+  text-decoration: none
+  color: var(--color-white)
+
+.info
+  display: flex
+  flex-direction: column
+
+.date
+  font-size: 0.9rem
+
+.title
+  font-size: 1.6rem
+  font-weight: 700
+  margin: 0.2rem 0 0.5rem
+
+.description
+  font-size: 1.2rem
+  font-weight: 300
+  line-height: 1.2
+
+@media (max-width: 60rem)
+  .info
+    margin: 0
+
+  .title
+    font-size: var(--font-size-l)

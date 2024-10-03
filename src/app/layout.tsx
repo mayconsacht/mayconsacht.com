@@ -2,13 +2,14 @@ import type { Metadata } from 'next';
 import { BasePage } from 'components/BasePage/BasePage';
 import { Providers } from './providers';
 
-import 'styles/fonts.css';
-import 'styles/global.css';
-import 'styles/base.css';
+import 'styles/fonts.sass';
+import 'styles/global.sass';
+import 'styles/base.sass';
 
 export const metadata: Metadata = {
-  title: 'Maycon Sacht | FullStack Developer',
-  description: 'This is where I live on the internet. Here you can find out more about my personal and professional life.'
+  title: 'Maycon Sacht | Software Enginner',
+  description:
+    'This is where I live on the internet. Here you can find out more about my personal and professional life.',
 };
 
 export default function RootLayout({

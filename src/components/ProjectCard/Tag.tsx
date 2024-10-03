@@ -1,4 +1,4 @@
-import styles from './Tag.module.css';
+import styles from './Tag.module.sass';
 
 type Props = {
   description: string;

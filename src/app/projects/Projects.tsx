@@ -1,7 +1,9 @@
-import BackToTopButton from 'components/BackToTopButton/BackToTopButton';
-import { ExternalLink } from 'components/ExternalLink/ExternalLink';
-import { ProjectCard } from 'components/ProjectCard/ProjectCard';
-import styles from './Projects.module.css';
+import BackToTopButton from 'components/BackToTopButton/BackToTopButton'
+import { ExternalLink } from 'components/ExternalLink/ExternalLink'
+import { ProjectCard } from 'components/ProjectCard/ProjectCard'
+import { SkillsList } from 'components/SkillsList/SkillsList'
+
+import styles from './Projects.module.sass'
 
 export default function Projects() {
   return (
@@ -9,11 +11,29 @@ export default function Projects() {
       <h1>Projects </h1>
       <div className={styles.sheet}>
         <p>
-          I&apos;ve worked on a lot of projects over the years and most have
-          been proprietary, but you can check out a few examples on my{' '}
+          I&apos;ve been writing code for over 10 years, and in my most recent
+          projects, I&apos;ve been focusing more on the following patterns and
+          technologies:
+        </p>
+        <SkillsList
+          skills={[
+            'C#/.NET Core',
+            'gRPC/SignalR/DDS',
+            'xUnit/Jest/Cypress/Postman',
+            'Javascript/Typescript/Node.js',
+            'RabbitMQ/REST',
+            'SQL/NoSQL/Cache',
+            'Angular/React/Next.js',
+            'DDD/CQRS/SOLID',
+            'Microservices/Clean Architecture'
+          ]}
+        ></SkillsList>
+        <p>
+          Most of the projects have been proprietary, but you can check out a
+          few examples on my{' '}
           <ExternalLink
-            href='https://github.com/mayconsacht'
-            arialLabel='Github'
+            href="https://github.com/mayconsacht"
+            arialLabel="Github"
           >
             Github
           </ExternalLink>
@@ -23,32 +43,32 @@ export default function Projects() {
       </div>
       <div className={styles.projects}>
         <ProjectCard
-          title='Dogs'
-          description='A simple social media platform for dogs.'
+          title="Dogs"
+          description="A simple social media platform for dogs."
           tags={['Node.js', 'React', 'Typescript']}
-          gitUrl='https://github.com/mayconsacht/dogs'
-          siteUrl='https://dogs.mayconsacht.com/'
+          gitUrl="https://github.com/mayconsacht/dogs"
+          siteUrl="https://dogs.mayconsacht.com/"
         />
         <ProjectCard
-          title='Rider'
-          description='A app for drivers and passengers. WIP'
+          title="Rider"
+          description="A app for drivers and passengers. WIP"
           tags={['.NET Core', 'Angular']}
-          gitUrl='https://github.com/mayconsacht/Rider'
+          gitUrl="https://github.com/mayconsacht/Rider"
         />
         <ProjectCard
-          title='This Website'
-          description='Explore this website code.'
+          title="This Website"
+          description="Explore this website code."
           tags={['React', 'Next.js', 'Typescript']}
-          gitUrl='https://github.com/mayconsacht/mayconsacht.com'
-          siteUrl='https://www.mayconsacht.com/'
+          gitUrl="https://github.com/mayconsacht/mayconsacht.com"
+          siteUrl="https://www.mayconsacht.com/"
         />
       </div>
       <p>
         If you&apos;re more interested in my work experience, feel free to visit
         my{' '}
         <ExternalLink
-          href='https://www.linkedin.com/in/maycon-sacht/'
-          arialLabel='Linkedin'
+          href="https://www.linkedin.com/in/maycon-sacht/"
+          arialLabel="Linkedin"
         >
           Linkedin
         </ExternalLink>{' '}
@@ -58,5 +78,5 @@ export default function Projects() {
       </p>
       <BackToTopButton />
     </>
-  );
+  )
 }

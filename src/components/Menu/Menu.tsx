@@ -1,8 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import styles from './Menu.module.css';
 import { usePathname } from 'next/navigation';
+
+import styles from './Menu.module.sass';
 
 export const Menu = () => {
   const pathname = usePathname();

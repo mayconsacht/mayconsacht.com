@@ -3,7 +3,7 @@
 import { UpArrowAlt as Arrow } from '@styled-icons/boxicons-regular/UpArrowAlt';
 import { useEffect, useState } from 'react';
 
-import styles from './BackToTopButton.module.css';
+import styles from './BackToTopButton.module.sass';
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
