@@ -29,15 +29,15 @@ export default function Projects() {
           ]}
         ></SkillsList>
         <p>
-          Most of the projects have been proprietary, but you can check out a
-          few examples on my{' '}
+          Although most of my work has been on proprietary projects, you can
+          check out a few examples on my{' '}
           <ExternalLink
             href="https://github.com/mayconsacht"
             arialLabel="Github"
           >
             Github
           </ExternalLink>
-          . To make it easier, I&apos;ve highlighted some of the most
+          . To make it easier, I&apos;ve highlighted some of the more
           interesting ones below.
         </p>
       </div>
@@ -64,8 +64,7 @@ export default function Projects() {
         />
       </div>
       <p>
-        If you&apos;re more interested in my work experience, feel free to visit
-        my{' '}
+        If you&apos;re more interested in my career, feel free to visit my{' '}
         <ExternalLink
           href="https://www.linkedin.com/in/maycon-sacht/"
           arialLabel="Linkedin"
